@@ -1,0 +1,156 @@
+/************************
+GENERAL
+*************************/
+
+body {
+  background: url('../images/noise.png'), -moz-radial-gradient(center 260px 0deg, circle closest-side, #888 0%, #222 100%) no-repeat;
+  background: url('../images/noise.png'), -webkit-gradient(radial, center 250, 0, center 250, 300, from(#888), to(#222)) no-repeat;
+  background-color: #222;
+}
+
+h1 {
+  font-family: 'Audiowide', cursive;
+  font-size: 5em;
+  font-weight: normal;
+  margin: 12px 0px 30px;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 2px 1px #000;
+}
+
+h2 {
+  color: #FFF;
+  font-family: 'Audiowide', cursive;
+  font-weight: bold;
+  text-shadow: 0px -1px 1px #000;
+}
+
+#about {
+  font-family: 'Titillium Web', sans-serif;
+  color: #DDD;
+  font-size: 1.25em;
+  line-height: 1.3em;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  -webkit-column-gap: 80px;
+  -moz-column-gap: 80px;
+  -webkit-column-rule: 1px solid #333;
+  -moz-column-rule: 1px solid #333;
+}
+
+ol {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.25em;
+  color: #DDD;
+  white-space: nowrap;
+}
+
+footer {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.25em;
+  color: #888;
+  text-align: center;
+  margin: 2% 0;
+}
+
+/************************
+IMAGE FRAME / IMAGES
+*************************/
+
+#stage {
+  background: #555;
+  height: 552px;
+  padding: 10px;
+  margin: 18px 0;
+  -webkit-box-shadow: inset 0px 0px 5px #000;
+  -moz-box-shadow: inset 0px 0px 5px #000;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  list-style: none;
+  position: relative;
+  -webkit-user-select: none;
+}
+
+#stage > img {
+	-webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+}
+
+#stage .photo {
+  width: 210px;
+  height: 160px;
+  background: #AAA;
+  border: 5px solid #AAA;
+  position: absolute;
+}
+
+#stage .photo:hover {
+  -webkit-box-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+  cursor: pointer;
+}
+
+#photo01 { top:  22px; left:  22px; }
+#photo02 { top:  22px; left: 256px; }
+#photo03 { top:  22px; left: 490px; }
+#photo04 { top:  22px; left: 724px; }
+#photo05 { top: 206px; left:  22px; }
+#photo06 { top: 206px; left: 256px; }
+#photo07 { top: 206px; left: 490px; }
+#photo08 { top: 206px; left: 724px; }
+#photo09 { top: 390px; left:  22px; }
+#photo10 { top: 390px; left: 256px; }
+#photo11 { top: 390px; left: 490px; }
+#photo12 { top: 390px; left: 724px; }
+
+#stage .large_photo {
+  width: 640px;
+  height: 360px;
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  z-index: 1000;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  border: 15px solid #AAA;
+  -webkit-box-shadow: 0px 0px 30px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 30px rgba(0,0,0,1);
+  cursor: pointer;
+}
+
+/************************
+LISTS
+*************************/
+
+#list-text {
+  font-family: 'Titillium Web', sans-serif;
+  color: #DDD;
+  font-size: 1.25em;
+  margin: 0 0 2% 30%;
+}
+
+#list-left {
+  float: left;
+  margin-left: 20%;
+}
+
+#list-right {
+  float: right;
+  margin: 0 20% 0 0;
+}
+
+/************************
+LINKS
+*************************/
+
+a {
+  color: #4A93B8;
+}
+
+a:hover {
+  color: #B7D4E3;
+}
+
+a:visited {
+  color: #2C586E;
+}
